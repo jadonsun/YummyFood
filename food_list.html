@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Share Yummy CookBook</title>
+	<meta name="keywords" content="Share Yummy CookBook">
+	<meta name="description" content="Share Yummy CookBook">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	
+	<!-- include main css -->
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style_1.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link href="font-awesome-4.5.0/css/font-awesome.min.css" rel='stylesheet' type='text/css' media="all" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+	<link rel="stylesheet" type="text/css" href="css/pagination.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style_loading.css"/>
+</head>
+<body>
+	
+<div>
+	<!--header-->
+	<header class="header_zi">
+	   <div class="container">
+		   <div class="logo">
+	   	   		<a href="index.html"><img src="images/logo1.png" alt="" width="300px"/></a>
+		   </div>
+		   <a href="#mmenu" class="phone-nav"><i class="fa fa-list"></i></a>
+		  <div class="logo_right">
+		  	  <nav class="nav" style="margin-left:100px;">
+		   		<ul>    
+					<li><a href="index.html">最热菜谱</a></li>
+					<li><a href="food_list.html" class="active">所有菜谱</a></li>
+					<li><a href="publicfood.html"  >发布菜谱</a></li>
+					<li><a href="use_helper.html">使用攻略</a></li>
+		   		</ul>
+		  	 </nav>
+		  	 <div class="search">
+		  	 	<span class="sea_x">
+		  	 		<input type="" name="" id="search_input" placeholder="请输入关键词">
+		  	 		<i class="fa fa-search" id="searchByKey"></i>		  	
+		  	 	</span>
+		  	 </div>
+		  </div>
+	   	
+	   </div>
+	</header>
+			
+	<!--banner  start-->
+	<section class="banner_zi">
+	    <div><img src="images/banner_yuan.png" alt=""></div>	   
+	</section>
+	<!--banner end-->
+	<div class="head_bar">
+		<span>位置：</span><a href="index.html">最热菜谱 </a> > <span class="active">所有菜谱</span>
+	</div>
+	<div class="news_zi">
+		<!-- <div class="top_qie">
+			锦囊攻略
+		</div>  -->
+		<div class="top_tit">
+			<span class="span1">快来查看所有美味菜谱吧</span><br />
+			<span class="span2">COOKBOOK LIST</span> 
+		</div>
+	</div>
+
+	<div class="w3layouts_featured-profiles">
+		<div class="container">
+			<!-- slider -->
+			<div class="agile_featured-profiles">
+					<ul id="flexiselDemo3">
+						<li id="food_list">
+						</li>
+						<div class='loader loader1 loading_1' id="loading_list">
+							<div>
+								<div>
+								<div>
+									<div>
+									<div>
+										<div></div>
+									</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</ul>
+					
+			</div>	
+			
+		</div>
+		<div class="page" style="display:none;" id="list_pagination">
+			<div id="pagination" class="pagination"></div>
+		</div>
+		<!-- //slider -->				
+	</div>
+		
+	
+    <!--footer  start-->
+    <footer class="footer">
+		<div class="footer_con">
+				<div class="con">
+					<div class="nei">
+						<div class="">
+							<ul class="di_nav clearfix" style="margin-left:200px;">
+							 <li><a href="index.html" class="active">最热菜谱</a></li>
+							 <li><a href="food_list.html">所有菜谱</a></li>
+							 <li><a href="publicfood.html"  >发布菜谱</a></li>
+							 <li><a href="use_helper.html">使用攻略</a></li>
+							</ul>
+							
+						</div>
+						<div class="clear"></div>
+						<div class="lian">
+						 我们的愿景：做基于星云链的最有影响力的美食平台，将美食带给每个星云用户。<br>
+						 我们的使命：使用星云链上的“Share Yummy CookBook”便可以做出美味菜肴。<br>
+						 联系方式：电话<a >15130288383; 	&nbsp;</a>     邮箱：<a >1289418330@qq.com。 	&nbsp;</a><br>
+						 通信地址：广东省深圳市南山区粤海大道南山创业园。<br />
+					 </div>
+						
+					</div>
+				</div>
+				
+		</div>
+		<div class="copy">Copyright &copy; 2018.Share Yummy CookBook. </div>
+	 </footer>
+    <!--footer  end-->
+
+</div>	
+
+<!--Include Js-->
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!--移动端导航-->
+<script src="js/jquery.mmenu.all.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+
+<!--slick-->
+<script src="js/slick.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/wow.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/pagination.min.js"></script>
+<script src="lib/template.js"></script>
+<script src="lib/urlParm.js"></script>
+<!-- <script src="js_back/GoldSunApi.js"></script>
+<script src="js_back/kit_hr.js"></script> -->
+<script src="normal_food_list.js"></script>
+<!-- <script src="js_back/contentscript_j.js"></script> -->
+
+<!--placeholder-->
+<script src="js/jquery.placeholder.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){ 
+		$('body').on("click",'#searchByKey',function(){
+			var input=$("#search_input").val();
+			if(''==input){
+				return;
+			}else{
+				window.location.href="food_list.html?key="+input;
+			}
+		});
+		$('input, textarea').placeholder();
+	});
+</script>
+<script id="food_list_t" type="text/html">
+	<%if(list.length > 0 ){%>
+	<%for(var i = 0; i < list.length; i++) {%>
+		<div class="col-md-3 biseller-column">
+			<a href="food_detail.html?key=<%:=list[i].food_info_key%>">
+				<div class="profile-image">
+					<img src="<%:=list[i].image%>" class="img-responsive" alt="profile image">
+					<div class="agile-overlay">
+					<h4 style="text-align: center;"><%:=list[i].food_name%></h4>
+						<ul>
+							<li><span style="width:55px;">所属菜系</span>: <%:=list[i].food_type%></li>
+							<% var temp = list[i].food_summary; if(temp.length > 84) { temp = temp.substring(0, 84); temp += "..."}%>
+							<li><span style="width:55px;">菜谱简介</span>: <%:=temp%></li>
+							<li><span style="width:55px;">点赞数量</span>: <%:=list[i].like_num%></li>
+							<li><span style="width:55px;">评论数量</span>: <%:=list[i].comm_num%></li>
+							<li><span style="width:55px;">作者昵称</span>: <%:=list[i].name%></li>
+							<li><span style="width:55px;">创作时间</span>: <%:=list[i].time%></li>
+						</ul>
+					</div>
+				</div>
+			</a>
+		</div>
+	<%}}%>
+	
+</script>
+<!--<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+
+</body>
+</html>

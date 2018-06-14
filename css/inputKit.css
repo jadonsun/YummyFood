@@ -1,0 +1,14 @@
+
+img{
+	border: none;
+}
+
+.file{
+	width: 280px;
+    height: 250px;
+    opacity: 0;
+    top: 60px;
+    z-index: 100;
+	position: absolute;
+    font-size: 100px;
+}
