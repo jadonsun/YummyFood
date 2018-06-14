@@ -2,7 +2,7 @@
 
 'use strict';
 
-var dappAddress = "n1eu6NpcqhMqSu8qUsUQxgfFHrgcs4PvrGg";
+var dappAddress = "n1eJ3EM3ezDqnpxPo8MJtTn4RUTSNUe5Gut";
 // var dappAddress = "n1skDiY9YgdM5o6fxyjMefd2vXX1kPCSY6j";
 
 var HOT_NUM = 8;
